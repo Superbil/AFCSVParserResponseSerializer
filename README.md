@@ -10,6 +10,9 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
+* AFNetworking 2.3.+
+* CHCSVParser 2.0+
+
 ## Installation
 
 AFCSVParserResponseSerializer is available through [CocoaPods](http://cocoapods.org). To install
@@ -23,5 +26,5 @@ Superbil, superbil@gmail.com
 
 ## License
 
-AFCSVParserResponseSerializer is available under the MIT license. See the LICENSE file for more info.
+AFCSVParserResponseSerializer is available under the [MIT](http://superbil.mit-license.org) license. See the LICENSE file for more info.
 
