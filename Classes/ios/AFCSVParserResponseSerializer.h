@@ -5,7 +5,7 @@
 //  Copyright (c) 2014年 org.superbil. All rights reserved.
 //
 
-#import "AFURLResponseSerialization.h"
+#import <AFNetworking/AFURLResponseSerialization.h>
 
 /**
  `AFCSVParserResponseSerializer` is a subclass of `AFHTTPResponseSerializer` that validates and decodes CSV responses as an `NSArray`,

@@ -7,7 +7,7 @@
 
 #import "AFCSVParserResponseSerializer.h"
 
-#import "CHCSVParser.h"
+#import <CHCSVParser/CHCSVParser.h>
 
 @interface AFCSVParserResponseSerializer () <CHCSVParserDelegate>
 
@@ -20,9 +20,7 @@
 @implementation AFCSVParserResponseSerializer
 
 + (instancetype)serializer {
-    AFCSVParserResponseSerializer *serializer = [[self alloc] init];
-
-    return serializer;
+    return [[self alloc] init];
 }
 
 - (instancetype)init {
